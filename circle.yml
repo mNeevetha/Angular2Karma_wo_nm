@@ -1,11 +1,6 @@
 test:
   pre:
     - npm --prefix ./client install ./client
-    - npm install karma-jasmine ./client --save-dev
-    - npm install karma-chrome-launcher ./client --save-dev
-    - npm install karma-jasmine-html-reporter ./client --save-dev
-    
-
   
   override:
    
