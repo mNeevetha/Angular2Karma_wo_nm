@@ -1,6 +1,8 @@
 test:
   pre:
-    - npm install -g karma
+    - npm install ./client
+    - npm install -g karma ./client
+    - npm install karma-jasmine ./client
   
   override:
    
