@@ -1,6 +1,6 @@
 test:
   pre:
-    - npm --prefix ./client install ./client
+    - npm --prefix ./client install 
   
   override:
    
